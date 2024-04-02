@@ -135,3 +135,279 @@ nav .menu {
     padding: 0px;
   }
 }
+
+/* serchbox-popup */
+.serchbox-popup {
+  background-color: orange;
+  border-radius: 20px 0px 0px 20px;
+  position: absolute;
+  top: 80px;
+  padding: 4px 4px 4px 8px;
+  right: 30px;
+  display: flex;
+}
+.serchbox-popup input {
+  height: 35px;
+  width: 320px;
+  border-radius: 20px 0px 0px 20px;
+  padding: 0px 15px;
+  font-size: 17px;
+  border: 1px solid gray;
+  background: #f0f0f0fa;
+  outline: none;
+  border-right: none;
+}
+/* serfchion */
+.custom-span {
+  height: 35px;
+  width: 32px;
+  font-size: 18px;
+  padding: 7px 30px 10px 10px;
+  background: #f0f0f0fa;
+  outline: none;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+/* shoping-cart */
+
+.shoping-cart {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(238, 235, 229);
+  position: absolute;
+  border-radius: 5px;
+  top: 80px;
+  right: 30px;
+  border: 2px solid rgba(59, 59, 59, 0.878);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.shoping-cart:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.253);
+}
+
+/* Login-form */
+
+.Login-form {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(212, 210, 208, 0.47);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+.Loginform {
+  display: flex;
+  width: 40%;
+  /* height: 50%; */
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: white;
+  position: relative;
+  flex-direction: column;
+  top: 20px;
+}
+.Loginform span {
+  font-size: 39px;
+  position: absolute;
+  right: 0;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+/* switch */
+.switch {
+  background-color: orange;
+  position: relative;
+  top: 75px;
+  /* tap is change the value sign up time  46px */
+  left: 180px;
+  border-radius: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switchTwo {
+  top: 75px;
+  right: 500px;
+}
+.switch span {
+  position: relative;
+  font-size: 22px;
+}
+.leftswitch {
+  background-color: orange;
+  border-radius: 20px 0px 0px 20px;
+}
+.rightswitch {
+  background-color: orange;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.activeoright {
+  background-color: gray;
+  border-radius: 0px 20px 20px 0px;
+}
+.activeleft {
+  background-color: gray;
+  border-radius: 20px 0px 0px 20px;
+}
+/* login here */
+
+.login-here {
+  padding: 50px 50px;
+  width: 100%;
+}
+
+.loginfield {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.password-failed {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.password-failed label {
+  color: rgb(105, 105, 105);
+  font-size: 16px;
+}
+.password-failed input {
+  display: flex;
+  width: 100%;
+  padding: 0px 20px;
+  height: 35px;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 17px;
+}
+
+.name-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.name-field label {
+  color: rgb(105, 105, 105);
+  font-size: 16px;
+}
+
+.name-field input {
+  display: flex;
+  width: 100%;
+  padding: 0px 20px;
+  height: 35px;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 17px;
+}
+
+.buttonsubmit button {
+  background-color: orange;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.1mm;
+  outline-color: white;
+  outline: orange solid 1px;
+}
+.buttonsubmit button:hover {
+  outline: 2px solid rgba(99, 99, 99, 0.855);
+  color: rgb(94, 131, 94);
+  cursor: pointer;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+/* sign-up form styles */
+
+.sign-here {
+  padding: 20px 50px 0px 50px;
+  width: 100%;
+}
+
+.signupfield {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.loginname-field,
+.passwordsection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+/* profile-popup---------------------------------------------------------------------------------------- */
+
+.profile-popup {
+  position: absolute;
+  top: 79px;
+  right: 30px;
+  display: flex;
+  background-color: rgb(254, 254, 254);
+  border: 1px solid rgb(249, 248, 248);
+  width: 250px;
+  height: 300px;
+  border: 2px solid rgba(221, 221, 221, 0.878);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.profile-popup:hover {
+  border: 3px solid rgba(195, 194, 194, 0.878);
+  box-shadow: 0 4px 10px 0 rgba(179, 179, 179, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.profilesettigs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.photo-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  padding-bottom: 10px;
+}
+
+.fauser {
+  width: 40px;
+  background-color: rgb(212, 212, 212);
+  height: 40px;
+  padding: 4px;
+  border-radius: 50%;
+  color: rgb(103, 102, 102);
+}
+
+.user-name {
+  color: gray;
+}
